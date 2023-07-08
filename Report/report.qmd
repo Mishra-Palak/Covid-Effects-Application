@@ -1,0 +1,184 @@
+---
+title: "COVID EFFECTS"
+subtitle: "Project Report"
+author: "Group 10"
+format: pdf
+editor: visual
+---
+
+## Introduction
+
+The emergence of **COVID-19** back in December 2019 shook the entire world. The pandemic made a significant impact on everyone's health, social, and economic well-being. In this project, we have analyzed COVID-19's impact on GDP, unemployment, tourism, and the pharmaceutical sector.
+
+## Data description:
+
+1.  COVID cases data consists of the cases data of the World, India and USA (we chose India and USA data because they are the top two countries affected by COVID in terms of the total number of cases).
+2.  Under World COVID-19 data, there are both, country-wise and continent-wise datasets with variables like the Number of COVID cases, Number of Deaths, Number of Recovered Cases and Number of Active Cases.
+
+![Continent-wise Data](report_images/Picture1.png)
+
+![Country-wise World Data](report_images/Picture2.png)
+
+3.  USA and India datasets contain state-wise data on variables like Number of COVID cases, Number of Deaths, Number of Recovered Cases and Number of Active Cases along with State Population.
+
+![India dataset](report_images/Picture3.png)
+
+4.  The GDP dataset contains the GDP data (in dollars, during the period 2017-2021) of 162 countries along with sovereign states.
+
+![GDP Dataset](report_images/Picture4.png){fig-align="center" width="50%"}
+
+5.  The unemployment dataset contains the unemployment rate (percentage labour force) data (during the period 2017-2021) of 162 countries along with sovereign states.
+
+![Unemployment dataset](report_images/Picture5.png){fig-align="center" width="50%"}
+
+6.  Tourism dataset contains month-wise data of the number of international tourist arrivals to India from 2019 to 2021.
+7.  Pharmaceuticals data has data on the exports from India to different regions around the world during the period 2019-2022.
+
+## Data Sources:
+
+1.  The **GDP** and **unemployment** data was collected from the 'World Bank' site in ***CSV format***.
+2.  The **tourism** dataset was collected in ***pdf format*** from the official site of Ministry of Tourism in the 'Tourism Statistics 2022' section and uploaded to CSV format.
+3.  **COVID Cases** data was ***web scrapped*** from the Worldometer site. **Pharmaceutical** data was ***web scrapped*** from the official site of the Ministry of Commerce and Industry.
+
+## Interesting Questions
+
+1.  Did population play a role in the spread of Covid -19?
+2.  Did health care facilities available play a role in the recovery rate of the country?
+3.  How were the GDP rates affected by the pandemic? Did any of the countries make a comeback?
+4.  Did the unemployment rate increase for every country during the COVID-19 period?
+5.  How was the tourism trend affected due to the lockdown?
+6.  Did India's pharmaceutical exports experience growth?
+
+## 1. Did population play a role in the spread of COVID-19?
+
+### WORLD:
+
+![](report_images/Picture7.png){fig-align="center" width="70%"}
+
+![](report_images/Picture8.png){fig-align="center" width="70%"}
+
+![](report_images/Picture9.png){fig-align="center" width="70%"}
+
+![](report_images/Picture10.png){fig-align="center" width="70%"}
+
+![](report_images/Picture11.png){fig-align="center" width="70%"}
+
+![](report_images/Picture12.png){fig-align="center" width="70%"}
+
+#### Observation:
+
+In the bubble plots, the size of bubbles depends upon the population of countries and the different colors of bubbles correspond to different countries. The straight line in the above graphs is the line of best fit and the gray-colored part around the line is the confidence interval. From the graph of Total Cases v/s Total Deaths, the population of India is more than the population of the USA but total cases, total deaths, and active cases in the USA are more than in India. While the population of Australia is less than India and the total cases, total deaths and active cases are also less than in India. So, we observe that the population may not have a significant role in the spread of COVID.
+
+### INDIA:
+
+![](report_images/Picture13.png){fig-align="center" width="70%"}
+
+![](report_images/Picture14.png){fig-align="center" width="70%"}
+
+![](report_images/Picture15.png){fig-align="center" width="70%"}
+
+![](report_images/Picture16.png){fig-align="center" width="70%"}
+
+![](report_images/Picture17.png){fig-align="center" width="70%"}
+
+#### Observation:
+
+The size of bubbles depends upon the population of states and the different colors of bubbles corresponding to different states. The straight line in the above graphs is the line of best fit and the gray-colored part around the line is the confidence interval. From the graph of Total Cases v/s Total Deaths, the population of Uttar Pradesh is more than the population of the Kerala, but total cases, total deaths, and active cases in the Kerala are more than in Uttar Pradesh. while the population of Punjab less than population of Uttar Pradesh and the total cases, total deaths and active cases are also less than in Punjab. So again, we observe that the population may not have a significant role in the spread of COVID.
+
+## 2. Did health care facilities available, play a role in the recovery rate?
+
+![](report_images/Picture18.png)
+
+In the above chart, red-coloured area indicate very poor health care facilities, while the dark green-coloured area indicate very good health care facilities available in the country.
+
+![](report_images/Picture19.png){fig-align="center" width="70%"}
+
+![](report_images/Picture20.png){fig-align="center" width="70%"}
+
+![](report_images/Picture21.png){fig-align="center" width="70%"}
+
+From the Health care facility chart, we see that majority of South America seem to have overall poor healthcare facilities. Looking at the pie charts, total deaths share a more proportion than total cases. Hence, there is a correlation between the health care facilities in the country and the rate of death/recovery.
+
+## 3. How were the GDP rates affected by the pandemic? Did any of the countries make a comeback?
+
+![](report_images/Picture22.png)
+
+### Observation:
+
+The different color lines show the GDP trend of the different countries, most of the countries experienced a GDP drop during the COVID period (in 2020), and many of them did make a comeback, i.e., their GDP increased in the year 2021 but the rate of increase in GDP reduced. The above graph shows that Brazil, China, India, Pakistan, and United States experienced a drop in GDP during 2020, then it increased in 2021.
+
+![](report_images/Picture23.png)
+
+Some countries didn't make a come back, i.e., their GDP falls during the COVID period (during 2020) and also decreases in 2021. In the above graph showm, Japan's and the United Arab Emirates (UAE)'s GDP decreased during the year 2020 and so in the year 2021 but the rate of decreasing reduces.
+
+## 4. Did the unemployment rate increase for every country during the COVID-19 period?
+
+![](report_images/Picture24.png)
+
+### Observation:
+
+The different color lines show the rate of unemployment trend of the different countries, most of the countries experienced a increase in the rate of unemployment during the COVID period (in 2020), and the rate of unemployment decreases in the year 2021. as the above graph shows that Brazil, China, India, Pakistan, and United States experience a increase in the rate of unemployment in 2020, then it decreases in 2021.
+
+![](report_images/Picture25.png)
+
+Some countries experienced a fall in unemployment rate before COVID period (in 2017, 2018, 2019), during the COVID period (in 2020), and after the COVID period (in 2021). As one can easily analyze from the above graph, Greece's unemployment rate decreased from the year (2017 - 2021). For France, the unemployment rate decreased from the year (2017-2021). The graph also shows that there was more unemployment in Greece than in France during (2017-2021).
+
+## 5. How was the tourism trend affected due to lockdown?
+
+-   India is estimated to contribute 250 bn \$ GDP from Tourism, 137 mn jobs in the Tourism sector, 56 bn \$ in Foreign Exchange Earnings and 25 mn foreign arrivals are expected to be achieved by 2030.
+-   India is currently ranked 54th in World Economic Forum's Travel & Tourism Development Index (2021).
+-   Due to restriction related to COVID-19, The number of Foreign Tourist Arrivals (FTAs) in India during 2021 decreased to 1.52 million as compared to 2.74 million in 2020, registering a negative growth of 44.5%.
+
+![](report_images/Picture26.png)
+
+![](report_images/Picture27.png)
+
+### Observation:
+
+As we can see from the graph, before the year 2020, graph line is above the line of no. of tourist arrivals during and after 2020. When we scroll over the line of the graph, we can observe about the no. of tourist arrivals in a particular month as in December 2019. Tourist arrivals were the least in the month of April 2020.
+
+## 6. Did India's pharmaceutical exports experience growth?
+
+-   The total annual turnover of the industry was US\$ 36.7 billion in 2019-20. India majorly exports drug formulations & biologicals, and these products contribute to about 75% of the total pharmaceuticals exports out of India.
+-   India's share of pharmaceuticals and drugs in the global market is 5.92%.
+-   During 2021-22, the country exported pharma products worth US\$ 24.62 billion, flat over the previous year. In 2020-21, the exports were worth US\$ 24.4 billion.
+-   The USA, the UK, South Africa, Russia, and Nigeria are India's top five export destinations.
+-   India played a key role during the Covid-19 pandemic and demonstrated its ability to be a consistent and reliable pharma supplier to the world even during time of crisis.
+-   The country is the biggest vaccine exporter, about 65-70% of the World Health Organization (WHO) vaccine requirements are sourced from India.
+
+![](report_images/Picture28.png)
+
+![](report_images/Picture29.png)
+
+![](report_images/Picture30.png)
+
+### Observation:
+
+The different color bars in the cluster bar graph show the exports of pharmaceuticals ( in million \$) from India to the different regions of the world (during 2019-20, 2020-21, 2021-22). The red color bar shows the exports during the year 2019-20, The green color bar shows the exports during the year 2020-21, The blue color bar shows the exports during the year 2021-22. Pharmaceutical exports from India increases in every region, from the year 2019 to 2021.
+
+## About Shiny App :
+
+### The R Shiny app has five different tabs :
+1.  **COVID Cases:** The sidebar panel of the COVID cases tab consists of three different categories: WORLD, USA, and INDIA for selection . as the user selects the category the following graphs are shown; bubble plot and pie chart corresponding to different variables.
+2.  **GDP:** The row panels of the GDP tab consist of select countries, select years, and plots for plotting the corresponding multiple-line graph, and when the user selects a particular area over the graph a data frame of the corresponding data shown on the right side.
+3.  **Unemployment:** The row panels of the unemployment tab consist of select countries, select years, and plots for plotting the corresponding multiple-line graph, when the user selects a particular area over the graph a data frame of the corresponding data is shown on the right side.
+4.  **Tourism:** The Tourism tab shows the line graph of no.of tourists arriving in the month of year 2019, 2020, 2021.
+5.  **Pharmaceuticals:** The Pharmaceutical tab shows the clustered bar graph of pharmaceutical exports from India in the year 2019,2020,2021.
+
+Users can choose from various tabs and the corresponding graphs see the effect of COVID on different sectors.
+
+## CONCLUSION : 
+
+1. There was no significant role of population in the spread of COVID. 
+2. There was a drop in GDP during COVID for most of the countries but later most of them made a comeback.
+3. During COVID, the unemployment rate increased, and after COVID, it decreased for most countries. But in some countries, unemployment rate decreased after COVID also.
+4. Tourism was affected badly due to COVID in the year 2020. 
+5. There was a rise in pharmaceuticals exports from India to different regions in the world.
+
+## References:
+
+1.  **COVID cases:**https://www.worldometers.info/coronavirus/
+2.  **GDP:**https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?end=2010& most_recent_value_desc=false&start=1961
+3.  **Unemployment:**https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+4.  **Tourism:**https://tourism.gov.in/annual-reports/india-tourism-statistics-2022
+5.  **Pharmaceutical:**https://commerce.gov.in/about-us/divisions/export-products-division/export-products-pharmaceuticals/
