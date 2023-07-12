@@ -1,4 +1,4 @@
-# Project Repository
+# COVID EFFECTS Application
 
-This repository will contain **ALL** the code, analysis, document and presentation for your group project.
- 
+This interactive application enables the users to make valuable insights about the COVID-19 data and its affects on various economical sectors, namely - GDP, Unemployment rates, Tourism trend and Pharmaceutical industry.
+
