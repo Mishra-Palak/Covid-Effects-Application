@@ -1,4 +1,4 @@
-# COVID EFFECTS - COVID-19 DATA SUMMARIZATION APP
+# COVID EFFECTS - COVID-19 INSIGHTS APP
 
 This interactive application enables the users to make valuable insights about the COVID-19 data and its affects on various economic sectors, namely - GDP, Unemployment rates, Tourism trend and Pharmaceutical industry.
 
